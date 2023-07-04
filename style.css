@@ -1,0 +1,127 @@
+/*Generales*/
+* { margin: 0;
+    font-family: 'Amita', cursive;}
+
+ .menu  {display:flex;
+    justify-content: end;
+    height: 100px;
+    height: 80px;
+    background-image: linear-gradient(to left, #93e18a, #71be7d, #559c6e, #3f7a5d, #2e5a49);
+    align-items: center;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+
+.caja  {
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to right top, #f4843c, #f0893f, #eb8e42, #e79246, #e3964b, #e29f4f, #e0a855, #dfb05b, #dec065, #dccf71, #dadf80, #d6ee91);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    list-style: none;}
+
+h1 {font-size:80px;
+    color:aliceblue;
+    text-align: start;}
+
+.coso {font-size: 90px;
+    color:#2e5a49}
+
+img {display: flex;
+    align-self: center;
+    justify-content: end;
+    width: 200px;
+    height: 200px;}
+
+ul {align-items: start;
+    list-style: none;
+    display:flex;
+    width: 30%;
+    justify-content:space-around;
+    font-size: 18;
+    font-style:inherit;}
+li {
+    text-align: center;}
+
+.subtitulo {font-size: 20px;
+color:rgb(250, 251, 252);
+text-align: center;}
+
+a {font-size: 20px;
+    font-weight: 300;
+    text-align: start;
+    line-break: normal;
+    color: #FFFFFF;
+    text-decoration: none;}
+a:active {
+    color:black;}
+
+/*De cada caja*/
+.nosotros {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;}
+
+.veterinarias {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    list-style: none;}
+
+.castraciones {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #eea7e5, #e3a1e2, #d99bdf, #cd95db, #c28fd8);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    list-style: none;}
+
+.fundaciones{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-image: linear-gradient(to right, #eea7cc, #f498ba, #f88aa5, #f97d8c, #f67171);
+    border-radius: 10px;
+    list-style: none;}
+
+/*Otro*/
+.map {
+    filter: grayscale(100%) invert(92%) contrast(93%)}
+
+.footer {
+    padding:100px 0px;
+    display:flex;
+    justify-content: space-between;}
+
+   
+@media (max-width: 1100px) {
+    ul {width:50%;}
+    li {width: 50%;}
+    .logo {width: 50%;
+        justify-content: end;}}
+
+ @media (max-width: 650px) {
+    ul {width:70%;}
+    li {width: 70%;}
+ }
+    
+@media (max-width:650px) {
+    div {width: 70%;}}
+@media (max-width:1100px) {
+    div {width: 50%;}}
+
