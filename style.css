@@ -5,7 +5,7 @@
  .menu  {display:flex;
     justify-content: end;
     height: 100px;
-    height: 80px;
+    width: 100%;
     background-image: linear-gradient(to left, #93e18a, #71be7d, #559c6e, #3f7a5d, #2e5a49);
     align-items: center;
     padding:10px;
@@ -70,7 +70,6 @@ a:active {
     margin: 20px;
     padding: 20px;
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-    
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 10px;
     list-style: none;}
