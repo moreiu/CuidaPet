@@ -13,6 +13,7 @@
 
 .caja  {
     height: 100%;
+    width: 1300px;
     margin: 20px;
     padding: 20px;
     background-image: linear-gradient(to right top, #f4843c, #f0893f, #eb8e42, #e79246, #e3964b, #e29f4f, #e0a855, #dfb05b, #dec065, #dccf71, #dadf80, #d6ee91);
@@ -67,6 +68,7 @@ a:active {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+    width: 1300px;
     margin: 20px;
     padding: 20px;
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
@@ -79,6 +81,7 @@ a:active {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+    width: 1300px;
     margin: 20px;
     padding: 20px;
     background-image: linear-gradient(to right, #eea7e5, #e3a1e2, #d99bdf, #cd95db, #c28fd8);
@@ -90,7 +93,8 @@ a:active {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
+    height: 50%;
+    width: 1300px;
     margin: 20px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -98,15 +102,49 @@ a:active {
     border-radius: 10px;
     list-style: none;}
 
+.Alma {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    width:45%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-image: linear-gradient(to right, #eea7cc, #f498ba, #f88aa5, #f97d8c, #f67171);
+    border-radius: 10px;
+    list-style: none;}
+
+.footer {
+    background-image: linear-gradient(to right top, #e5654b, #d08c3c, #b2ac51, #95c47f, #83d6b4, #72d9d6, #7ad9f0, #9ad6ff, #b7c5fc, #d7b2e7, #eca1c3, #ee9898);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 1300px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    list-style: none;
+}
+#nosotras {color: black;
+    align-content: center;
+    background-color: #FFFFFF;
+    background-image: none;
+    display: flex;
+    flex-flow: wrap;
+    justify-self: center;
+    padding: 10px;
+    width: 250px;}
+.yo { display:block;
+    justify-content: space-between;
+    align-content: space-around;
+}
 /*Otro*/
 .map {
     filter: grayscale(100%) invert(92%) contrast(93%)}
-
-.footer {
-    padding:100px 0px;
-    display:flex;
-    justify-content: space-between;}
-
    
 @media (max-width: 1100px) {
     ul {width:50%;}
